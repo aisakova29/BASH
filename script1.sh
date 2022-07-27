@@ -16,9 +16,9 @@ for n in {1..5}; do
 
     if [ $? -eq 0 ]
     then
-       echo "Directory "$PTH""$name_directory"-"$i" successfully created"
+       echo "Directory "$PTH""$name_directory"-"$n" successfully created"
     else
-       echo "Could not create "$PTH""$name_directory"-"$i" directory" >&2
+       echo "Could not create "$PTH""$name_directory"-"$n" directory" >&2
     fi
 
 # создаем 1000 файлов с рандомными значениями в пяти ранее созданных директориях
